@@ -8,7 +8,7 @@ class View {
 
 	function generate($content, $data = null, $sedata = null)
 	{
-		
+        // session_start();
 		if(is_array($data)) {
 			extract($data);
 		}
