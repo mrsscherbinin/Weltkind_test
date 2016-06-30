@@ -91,3 +91,7 @@ body {
   max-width: 200px;
   max-height: 180px;
 }
+
+.modal_img {
+  margin: auto;
+}

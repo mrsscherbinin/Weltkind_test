@@ -37,10 +37,11 @@ foreach ($data as $key) {
 	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 	      </div>
 	      <div class="modal-body">
-			<img class="img-responsive" src="'.$key['url'].'" alt="'.$key['name'].'">
+				<img class="img-responsive modal_img" src="'.$key['url'].'" alt="'.$key['name'].'">
 	      </div>
 	      <div class="modal-footer">
-			<h5 class="pull-left">'.$key['name'].'</h5>
+	      <h4 class="pull-left">Название фотографии:</h4>
+			<h5>'.$key['name'].'</h5>
 	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 	      </div>
 	    </div>
