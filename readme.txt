@@ -5,9 +5,9 @@
 -Примечание: в моем движке исползуется библиотека PDO для работы с БД. Необходимо раскомментировать в php.ini: extension=php_pdo.dll и extension=php_pdo_mysql.dll
 -Так же для корректной работы желательно изменить: session.auto_start = 1
 -Так же неободимо настроить апач для чтения .htaccess файла:  apache.conf > 
-                                                                              *UNIX
-                                                                              <Directory /var/www/>
-                                                                              	Options Indexes FollowSymLinks
-                                                                              	AllowOverride All
-                                                                              	Require all granted
-                                                                              </Directory>
+                                           *UNIX
+                                             <Directory /var/www/>
+                                             	Options Indexes FollowSymLinks
+                                             	AllowOverride All
+                                             	Require all granted
+                                             </Directory>
