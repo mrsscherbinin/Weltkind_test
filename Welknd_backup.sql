@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Хост: localhost
--- Время создания: Июн 30 2016 г., 17:21
+-- Время создания: Июн 30 2016 г., 17:56
 -- Версия сервера: 5.7.12-0ubuntu1
 -- Версия PHP: 7.0.4-7ubuntu2.1
 
@@ -54,7 +54,9 @@ INSERT INTO `albums` (`id`, `name`, `description`, `date`) VALUES
 (39, 'Одиннадцатый тестовый альбом', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis incidunt facere veritatis, deserunt eligendi magni enim, iusto sed atque esse asperiores, ipsum qui cupiditate quod saepe vero, quis inventore? Mollitia?', '2016-06-30 10:42:11'),
 (40, 'Двенадцатый тестовый альбом', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis incidunt facere veritatis, deserunt eligendi magni enim, iusto sed atque esse asperiores, ipsum qui cupiditate quod saepe vero, quis inventore? Mollitia?', '2016-06-30 10:42:19'),
 (41, 'Тринадцатый тестовый альбом', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis incidunt facere veritatis, deserunt eligendi magni enim, iusto sed atque esse asperiores, ipsum qui cupiditate quod saepe vero, quis inventore? Mollitia?', '2016-06-30 10:42:25'),
-(42, 'Картиночки1', 'описание1', '2016-06-30 11:02:25');
+(42, 'Картиночки1', 'описание1', '2016-06-30 11:02:25'),
+(44, 'Еще один тестовый альбом', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis incidunt facere veritatis, deserunt eligendi magni enim, iusto sed atque esse asperiores, ipsum qui cupiditate quod saepe vero, quis inventore? Mollitia?', '2016-06-30 11:48:37'),
+(45, 'И еще', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis incidunt facere veritatis, deserunt eligendi magni enim, iusto sed atque esse asperiores, ipsum qui cupiditate quod saepe vero, quis inventore? Mollitia?', '2016-06-30 11:54:56');
 
 -- --------------------------------------------------------
 
@@ -131,7 +133,22 @@ INSERT INTO `photos` (`id`, `name`, `url`, `album_id`) VALUES
 (69, '710875.jpg', '/staticfiles/img/album_43/710875.jpg', 43),
 (70, '710876.jpg', '/staticfiles/img/album_43/710876.jpg', 43),
 (71, '710877.jpg', '/staticfiles/img/album_43/710877.jpg', 43),
-(72, '710872.jpg', '/staticfiles/img/album_43/710872.jpg', 43);
+(72, '710872.jpg', '/staticfiles/img/album_43/710872.jpg', 43),
+(73, '0.jpg', '/staticfiles/img/album_44/0.jpg', 44),
+(74, '1.jpg', '/staticfiles/img/album_44/1.jpg', 44),
+(75, '2.jpg', '/staticfiles/img/album_44/2.jpg', 44),
+(76, '02c6704adf9408898_900.jpg', '/staticfiles/img/album_44/02c6704adf9408898_900.jpg', 44),
+(77, '4.jpg', '/staticfiles/img/album_44/4.jpg', 44),
+(78, '6.jpg', '/staticfiles/img/album_44/6.jpg', 44),
+(79, '7.jpg', '/staticfiles/img/album_44/7.jpg', 44),
+(80, '8.jpg', '/staticfiles/img/album_44/8.jpg', 44),
+(81, '9.jpg', '/staticfiles/img/album_44/9.jpg', 44),
+(82, '3731555-R3L8T8D-650-enhanced-buzz-wide-9033-1338402354-5.jpg', '/staticfiles/img/album_44/3731555-R3L8T8D-650-enhanced-buzz-wide-9033-1338402354-5.jpg', 44),
+(83, '3737005-R3L8T8D-650-enhanced-buzz-wide-5453-1338324640-28.jpg', '/staticfiles/img/album_44/3737005-R3L8T8D-650-enhanced-buzz-wide-5453-1338324640-28.jpg', 44),
+(84, '3732955-R3L8T8D-650-enhanced-buzz-wide-22552-1338324605-16.jpg', '/staticfiles/img/album_44/3732955-R3L8T8D-650-enhanced-buzz-wide-22552-1338324605-16.jpg', 44),
+(85, 'a2d11194148057a23_900.jpg', '/staticfiles/img/album_44/a2d11194148057a23_900.jpg', 44),
+(86, '7025-1920x1200.jpg', '/staticfiles/img/album_45/7025-1920x1200.jpg', 45),
+(87, 'tmp727110550026190849.png', '/staticfiles/img/album_45/tmp727110550026190849.png', 45);
 
 -- --------------------------------------------------------
 
@@ -182,12 +199,12 @@ ALTER TABLE `sort`
 -- AUTO_INCREMENT для таблицы `albums`
 --
 ALTER TABLE `albums`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=46;
 --
 -- AUTO_INCREMENT для таблицы `photos`
 --
 ALTER TABLE `photos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=73;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=88;
 --
 -- AUTO_INCREMENT для таблицы `sort`
 --
