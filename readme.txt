@@ -11,3 +11,8 @@
                                              	AllowOverride All
                                              	Require all granted
                                              </Directory>
+-Так же в UNIX системах надо включить mod_rewrite: sudo a2enmod rewrite && sudo service apache2 restart
+
+Для удобства запустил сайт на удаленном сервере.
+
+http://104.236.42.142/
