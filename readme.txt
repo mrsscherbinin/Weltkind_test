@@ -13,6 +13,9 @@
                                              </Directory>
 -Так же в UNIX системах надо включить mod_rewrite: sudo a2enmod rewrite && sudo service apache2 restart
 
-Для удобства запустил сайт на удаленном сервере.
+Для удобства запустил сайт на удаленном сервере. 
+Доступ к админ панели: 
+user: admin
+pass: 1221
 
 http://104.236.42.142/
